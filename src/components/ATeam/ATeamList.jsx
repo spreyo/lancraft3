@@ -7,13 +7,14 @@ export const ATeamList = () => {
             <div id="ateam-list">
                 <User username="Profiikk" rank="majitel" />
                 <User username="Slovakiaman22" rank="vedenie" />
-                <User username="DwEad0_" rank="hlhelper" />
                 <User username="Wallllleeee" rank="hlbuilder" />
-                <User username="Afteriq" rank="builder" />
+                <User username="MaxAugustin" rank="builder" />
+                <User username="Stepka2012" rank="builder" />
+                <User username="DwEad0_" rank="builder" />
+                <User username="Afteriq" rank="hlhelper" />
+                <User username="xXSuperHero007Xx" rank="helper" />
                 <User username="vojtasw" rank="developer" />
                 <User username="mizerop" rank="moderator" />
-                <User username="Stepka2012" rank="builder" />
-                <User username="MaxAugustin" rank="builder" />
 
             </div>
 
