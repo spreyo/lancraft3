@@ -9,6 +9,7 @@ export const ATeam = () => {
             <Spacer px="9vw" />
             <Header />
             <ATeamList />
+            <Spacer px="9vw" />
         </>
     )
 }

@@ -14,6 +14,7 @@ export const ATeamList = () => {
                 <User username="Afteriq" rank="hlhelper" />
                 <User username="xXSuperHero007Xx" rank="helper" />
                 <User username="vojtasw" rank="developer" />
+                <User username="Cool_acc007" rank="hlmoderator" />
                 <User username="mizerop" rank="moderator" />
 
             </div>
