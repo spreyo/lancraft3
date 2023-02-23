@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'futuristic';
+  src: url("/src/three/fonts/FUTRFW.TTF");
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url("/src/three/fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ztgatha";
+  src: url("/src/three/fonts/ZTGatha-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("/src/three//fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "varela";
+  src: url("/src/three/fonts/Varela-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ka1";
+  src: url("/src/three//fonts/ka1.ttf");
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#loading {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading-circle {
+  border: 16px solid #f6eff0;
+  border-top: 16px solid #ff2e2e;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin 2s linear infinite;
+}
+
+#loading-image {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: #000000;
+}
+
+#navbar {
+  background-color: #f30704;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#navbar-links {
+  display: flex;
+  list-style-type: none;
+
+}
+
+#navbar-links li a {
+  color: #000604;
+  display: block;
+  font-family: "futuristic";
+  font-weight: bold;
+  padding: 4px;
+  font-size: 15px;
+  margin-right: 50px;
+  cursor: pointer;
+
+}
+
+#nav-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+#header {
+  /* width: 100vw; */
+  margin: auto;
+  text-align: center;
+
+}
+
+#header-img {
+  width: 456px;
+  height: 86px;
+  text-align: center;
+  position: relative;
+
+}
+
+#header-ip-address {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  color: #d4cecf;
+  font-family: "ka1";
+  letter-spacing: 5px;
+  font-size: 27px;
+  opacity: 70%;
+}
+
+
+.spacer {
+  width: 100vw;
+  height: 20vw;
+  margin-top: 0;
+}
+
+.text-card-wrap {
+  width: 100vw;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.text-card {
+  position: relative;
+  text-align: center;
+
+  width: 400px;
+  height: 500px;
+  background-color: #000000;
+  margin-bottom: 100px;
+}
+
+.text-card-heading {
+  font-family: "raleway";
+  color: #f30704;
+  font-size: 50px;
+
+}
+
+.text-card-text {
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  padding-top: 0;
+  text-align: justify;
+}
+
+#ateam-header {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#ateam-header-img {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+#ateam-list-wrap {
+  width: 100vw;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#ateam-list {
+  position: relative;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  border-radius: 30px;
+  width: 1200px;
+  height: 800px;
+  padding: 20px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+
+}
+
+
+#ateam-user {
+  position: relative;
+  margin: auto;
+}
+
+#ateam-username {
+  font-size: 20px;
+
+}
+
+
+
+#footer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 39, 39);
+  height: 50px;
+  width: 100vw;
+}
+
+#footer-links {
+  display: flex;
+  list-style-type: none;
+}
+
+#footer-links li {
+  display: flex;
+
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.footer-text {
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  cursor: pointer;
+}
