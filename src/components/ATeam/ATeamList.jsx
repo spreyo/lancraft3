@@ -5,7 +5,7 @@ export const ATeamList = () => {
     return (
         <div id="ateam-list-wrap">
             <div id="ateam-list">
-                <User username="Profiikk" rank="majitel" />
+                <User username="Profiikk" rank="majitel" skin="/src/three/images/Profiikk.png" />
                 <User username="Slovakiaman22" rank="vedenie" />
                 <User username="Wallllleeee" rank="hlbuilder" />
                 <User username="MaxAugustin" rank="builder" />

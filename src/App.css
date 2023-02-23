@@ -231,10 +231,21 @@ body {
   margin: auto;
 }
 
+.ateam-user-img-custom {
+  width: 64px;
+  height: 64px;
+}
+
+.ateam-user-img {
+  width: 64px;
+  height: 64px;
+}
+
 #ateam-username {
   font-size: 20px;
 
 }
+
 
 
 

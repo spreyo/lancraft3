@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-export const User = ({ username, rank }) => {
+export const User = ({ username, rank, skin }) => {
     const [userRank, setUserRank] = useState();
     useEffect(() => {
         switch (rank) {
@@ -38,7 +38,9 @@ export const User = ({ username, rank }) => {
     }, [])
     return (
         <div className='ateam-user'>
-            <img src={`https://api.mineatar.io/body/front/${username}`} className="ateam-user-img"></img>
+            {skin ? <img src={skin} className="ateam-user-img-custom"></img> :
+                <img src={`https://api.mineatar.io/face/${username}`} className="ateam-user-img"></img>
+            }
             {userRank}<h1 className="ateam-username" style={{ "fontSize": "20px" }}>{username}</h1>
         </div>
     )
