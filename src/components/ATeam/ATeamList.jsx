@@ -6,7 +6,7 @@ export const ATeamList = () => {
         <div id="ateam-list-wrap">
             <div id="ateam-list">
                 <User username="Profiikk" rank="majitel" skin="/src/three/images/Profiikk.png" />
-                <User username="Slovakiaman22" rank="vedenie" />
+                <User username="Slovakiaman22" rank="vedenie" skin="/src/three/images/Slovakiaman22.png" />
                 <User username="Wallllleeee" rank="hlbuilder" />
                 <User username="MaxAugustin" rank="builder" />
                 <User username="Stepka2012" rank="builder" />
