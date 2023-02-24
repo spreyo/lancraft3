@@ -11,7 +11,7 @@ export const ATeamList = () => {
                 <User username="MaxAugustin" rank="builder" />
                 <User username="Stepka2012" rank="builder" />
                 <User username="DwEad0_" rank="builder" />
-                <User username="Afteriq" rank="hlhelper" />
+                <User username="Afteriq" rank="hlhelper" skin="/src/three/images/Afteriq.png" />
                 <User username="xXSuperHero007Xx" rank="helper" />
                 <User username="vojtasw" rank="developer" />
                 <User username="Cool_acc007" rank="hlmoderator" />
